@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     # additional app
     'rest_framework',
     'django_filters',
+    'simple_history',
 
     # project app
     'users',
@@ -61,6 +62,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 
     'corsheaders.middleware.CorsMiddleware',
+    'simple_history.middleware.HistoryRequestMiddleware',
 ]
 
 ROOT_URLCONF = 'ssces.urls'

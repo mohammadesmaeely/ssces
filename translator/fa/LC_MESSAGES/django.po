@@ -35,4 +35,59 @@ msgstr "کاربر"
 msgid "users"
 msgstr "کاربران"
 
+msgid "category name"
+msgstr "نام کتگوری"
 
+msgid "event category"
+msgstr "دسته بندی رویداد"
+
+msgid "event categories"
+msgstr "دسته بندی های رویدادها"
+
+msgid "title"
+msgstr "عنوان"
+
+msgid "description"
+msgstr "توضیحات"
+
+msgid "registration fee"
+msgstr "هزینه ثبت نام"
+
+msgid "capacity"
+msgstr "ظرفیت"
+
+msgid "event date"
+msgstr "تاریخ برگزاری"
+
+msgid "event ticket"
+msgstr "بلیت ایونت"
+
+msgid "authenticated user capacity"
+msgstr "ظرفیت برای کاربران سایت"
+
+msgid "authenticated user price"
+msgstr "مبلغ برای کاربران سایت"
+
+msgid "anonymous user capacity"
+msgstr "ظرفیت برای کاربران ناشناخته"
+
+msgid "anonymous user price"
+msgstr "قیمت برای کاربران ناشناخته"
+
+msgid "show on site?"
+msgstr "آیا در سایت نمایش داده شود؟"
+
+msgid "created at"
+msgstr "ساخته شده در"
+
+msgid "updated at"
+msgstr "آپدیت شده در"
+
+msgid "ordering in list"
+msgstr "ترتیب در لیست"
+
+msgid "is paid?"
+msgstr "آیا پرداخت شده است؟"
+
+msgid "if it runs out, authenticate user use anonymous user capacity"
+msgstr "اگر تمام شود کاربران سایت جزو کاربران ناشناخته محاسبه میشوند"
