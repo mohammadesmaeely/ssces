@@ -49,7 +49,7 @@ INSTALLED_APPS = [
 
     # project app
     'users',
-
+    'events',
 ]
 
 MIDDLEWARE = [
