@@ -22,11 +22,6 @@ class Event(BaseModel):
         verbose_name=_("description"),
     )
 
-    registration_fee = models.IntegerField(
-        default=0,
-        verbose_name=_("registration fee"),
-    )
-
     date = models.DateField(
         verbose_name=_("event date"),
     )

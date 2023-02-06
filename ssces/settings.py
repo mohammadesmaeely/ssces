@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'django_filters',
     'simple_history',
+    'admin_auto_filters',
 
     # project app
     'users',

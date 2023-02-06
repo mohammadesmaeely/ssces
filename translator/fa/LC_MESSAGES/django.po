@@ -91,3 +91,15 @@ msgstr "آیا پرداخت شده است؟"
 
 msgid "if it runs out, authenticate user use anonymous user capacity"
 msgstr "اگر تمام شود کاربران سایت جزو کاربران ناشناخته محاسبه میشوند"
+
+msgid "event"
+msgstr "رویداد"
+
+msgid "events"
+msgstr "رویدادها"
+
+msgid "registered event"
+msgstr "ثبت نام شده ایونت"
+
+msgid "registered events"
+msgstr "ثبت نام شدگان زویداد"
