@@ -6,7 +6,7 @@ from events.views.evnet import EventViewSet
 router = DefaultRouter()
 
 router.register('event_categories', EventCategoryReadViewSet)
-router.register('event', EventViewSet)
+router.register('events', EventViewSet)
 
 urlpatterns = [
 
