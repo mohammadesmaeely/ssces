@@ -51,6 +51,7 @@ INSTALLED_APPS = [
     # project app
     'users',
     'events',
+    'central_members',
 ]
 
 MIDDLEWARE = [

@@ -103,3 +103,24 @@ msgstr "ثبت نام شده ایونت"
 
 msgid "registered events"
 msgstr "ثبت نام شدگان زویداد"
+
+msgid "period"
+msgstr "دوره"
+
+msgid "council period"
+msgstr "دوره شورا"
+
+msgid "council periods"
+msgstr "دوره های شوراها"
+
+msgid "email"
+msgstr "ایمیل"
+
+msgid "telegram address"
+msgstr "آدرس تلگرام"
+
+msgid "central member"
+msgstr "عضو شورا"
+
+msgid "central members"
+msgstr "اعضای شوراهای مرکزی"

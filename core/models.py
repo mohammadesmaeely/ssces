@@ -10,7 +10,7 @@ class ActiveManager(models.Manager):
 
 
 class BaseModel(models.Model):
-    history = HistoricalRecords()
+    history = HistoricalRecords(inherit=True)
 
     objects = models.Manager()
     active_objects = ActiveManager()
