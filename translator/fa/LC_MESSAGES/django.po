@@ -124,3 +124,21 @@ msgstr "عضو شورا"
 
 msgid "central members"
 msgstr "اعضای شوراهای مرکزی"
+
+msgid "cooperation form"
+msgstr "فرم همکاری"
+
+msgid "cooperation forms"
+msgstr "فرم های همکاری"
+
+msgid "cooperation"
+msgstr "همکاری"
+
+msgid "text"
+msgstr "متن"
+
+msgid "cooperation reply"
+msgstr "پاسخ همکاری"
+
+msgid "cooperation replies"
+msgstr "پاسخ های همکاری ها"

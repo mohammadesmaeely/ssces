@@ -52,6 +52,7 @@ INSTALLED_APPS = [
     'users',
     'events',
     'central_members',
+    'cooperation',
 ]
 
 MIDDLEWARE = [
