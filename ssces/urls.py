@@ -22,6 +22,7 @@ urlpatterns = [
     path('users/', include('users.urls')),
     path('events/', include('events.urls')),
     path('central_members/', include('central_members.urls')),
+    path('cooperation/', include('cooperation.urls')),
 ]
 
 urlpatterns += staticfiles_urlpatterns()
