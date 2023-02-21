@@ -26,7 +26,6 @@ class CooperationReply(BaseModel):
         verbose_name=_("text"),
     )
 
-
     phone_number = models.CharField(
         max_length=13,
         null=True,
