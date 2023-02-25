@@ -13,3 +13,4 @@ django-environ
 django-simple-history
 django-admin-autocomplete-filter
 Pillow
+drf-yasg
