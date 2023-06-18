@@ -9,7 +9,7 @@ class EventViewSet(ReadOnlyModelViewSet):
     permission_classes = [AllowAny]
     queryset = Event.active_objects.none()
     def get_queryset(self):
-        if self.request.user.is_admin:
+        if self.request.user.is_authenticated and self.request.user.is_admin:
             return Event.active_objects.all()
         return Event.active_objects.filter(show_on_site=True)
 
