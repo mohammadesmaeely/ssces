@@ -18,6 +18,12 @@ class Event(BaseModel):
         verbose_name=_("title"),
     )
 
+    image = models.ImageField(
+        null=True,
+        blank=True,
+        verbose_name=_("image"),
+    )
+
     description = models.TextField(
         verbose_name=_("description"),
     )

@@ -12,6 +12,7 @@ class EventSerializer(serializers.ModelSerializer):
             'category',
             'category_name',
             'title',
+            'image',
             'description',
             'date',
             'authenticated_user_capacity',
