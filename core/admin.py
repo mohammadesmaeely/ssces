@@ -1,7 +1,3 @@
-from rangefilter2.filter import DateRangeFilter
+from django.contrib import admin
 
-
-class CustomDateRangeFilter(DateRangeFilter):
-    def __init__(self, field, request, params, model, model_admin, field_path):
-        setattr(request, 'LANGUAGE_CODE', 'fa')
-        super().__init__(field, request, params, model, model_admin, field_path)
+# Register your models here.

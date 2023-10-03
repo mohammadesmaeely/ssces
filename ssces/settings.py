@@ -49,7 +49,6 @@ INSTALLED_APPS = [
     'admin_auto_filters',
     'drf_yasg',
     'import_export',
-    'rangefilter2',
 
     # project app
     'users',
