@@ -14,6 +14,7 @@ class RegisteredEvent(BaseModel):
         Event,
         on_delete=models.PROTECT,
         verbose_name=_("event"),
+        related_name='registered_events',
     )
 
     user = models.ForeignKey(
@@ -22,6 +23,7 @@ class RegisteredEvent(BaseModel):
         null=True,
         blank=True,
         verbose_name=_("user"),
+        related_name='registered_events',
     )
 
     phone_number = models.CharField(

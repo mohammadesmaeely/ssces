@@ -142,3 +142,15 @@ msgstr "پاسخ همکاری"
 
 msgid "cooperation replies"
 msgstr "پاسخ های همکاری ها"
+
+msgid "not paid"
+msgstr "پرداخت نشده"
+
+msgid "paid"
+msgstr "پرداخت شده"
+
+msgid "you have already registered for this event"
+msgstr "شما قبلا در این ایونت ثبت نام کرده اید"
+
+msgid "capacity is complete"
+msgstr "ظرفیت تکمیل است"
