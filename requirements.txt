@@ -14,3 +14,5 @@ django-simple-history
 django-admin-autocomplete-filter
 Pillow
 drf-yasg
+django-import-export
+jalali-django-admin-rangefilter
