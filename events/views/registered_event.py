@@ -1,10 +1,10 @@
 from rest_framework import mixins, status
 from rest_framework.decorators import action
 from rest_framework.response import Response
-from rest_framework.viewsets import ModelViewSet, GenericViewSet
+from rest_framework.viewsets import GenericViewSet
 
 from events.models import RegisteredEvent
-from events.serializers.registered_event import RegisteredEventSerializer
+from events.serializers.registered_event import RegisteredEventSerializer, ExpandedRegisteredEventSerializer
 
 
 class RegisteredEventView(mixins.CreateModelMixin, mixins.RetrieveModelMixin, mixins.ListModelMixin, GenericViewSet):
@@ -17,7 +17,10 @@ class RegisteredEventView(mixins.CreateModelMixin, mixins.RetrieveModelMixin, mi
         else:
             return RegisteredEvent.active_objects.filter(user=user)
 
-    serializer_class = RegisteredEventSerializer
+    def get_serializer_class(self):
+        if self.action in ['list', 'retrieve']:
+            return ExpandedRegisteredEventSerializer
+        return RegisteredEventSerializer
 
     filterset_fields = [
         'event',

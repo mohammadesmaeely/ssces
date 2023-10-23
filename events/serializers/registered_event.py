@@ -27,3 +27,8 @@ class RegisteredEventSerializer(serializers.ModelSerializer):
         if attrs['event'].registered_events.filter(is_paid=True, user__isnull=False).count() >= attrs['event'].authenticated_user_capacity:
             raise serializers.ValidationError(_("capacity is complete"))
         return attrs
+
+
+class ExpandedRegisteredEventSerializer(RegisteredEventSerializer):
+    class Meta(RegisteredEventSerializer.Meta):
+        depth = 1
