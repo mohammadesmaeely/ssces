@@ -154,3 +154,9 @@ msgstr "شما قبلا در این ایونت ثبت نام کرده اید"
 
 msgid "capacity is complete"
 msgstr "ظرفیت تکمیل است"
+
+msgid "gallery image"
+msgstr "عکس گالری"
+
+msgid "gallery images"
+msgstr "عکس های گالری"

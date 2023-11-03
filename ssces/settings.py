@@ -55,6 +55,7 @@ INSTALLED_APPS = [
     'events',
     'central_members',
     'cooperation',
+    'gallery',
 ]
 
 MIDDLEWARE = [
