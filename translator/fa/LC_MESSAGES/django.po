@@ -160,3 +160,21 @@ msgstr "عکس گالری"
 
 msgid "gallery images"
 msgstr "عکس های گالری"
+
+msgid "book"
+msgstr "کتاب"
+
+msgid "books"
+msgstr "کتاب ها"
+
+msgid "book reserve"
+msgstr "کتاب رزرو شده"
+
+msgid "book reserves"
+msgstr "کتاب های رزرو شده"
+
+msgid "reserve date"
+msgstr "تاریخ رزرو"
+
+msgid "has been returned?"
+msgstr "آیا بازگردانده است؟"
