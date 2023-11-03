@@ -35,7 +35,7 @@ urlpatterns = [
     path('events/', include('events.urls')),
     path('central_members/', include('central_members.urls')),
     path('cooperation/', include('cooperation.urls')),
-    path('gallery', include('gallery.urls')),
+    path('gallery/', include('gallery.urls')),
 ]
 
 urlpatterns += staticfiles_urlpatterns()
