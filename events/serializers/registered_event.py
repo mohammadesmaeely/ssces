@@ -22,7 +22,7 @@ class RegisteredEventSerializer(serializers.ModelSerializer):
             event=attrs['event'], user=self.context['request'].user
         ).first()
         if old_registered_event:
-            state = _("not paid") if old_registered_event.is_paid else _("paid")
+            state = _("not paid") if not old_registered_event.is_paid else _("paid")
             raise serializers.ValidationError(f'{_("you have already registered for this event")} ({_(state)})')
         if attrs['event'].registered_events.filter(is_paid=True, user__isnull=False).count() >= attrs['event'].authenticated_user_capacity:
             raise serializers.ValidationError(_("capacity is complete"))
