@@ -15,3 +15,4 @@ django-admin-autocomplete-filter
 Pillow
 drf-yasg
 django-import-export
+django-tinymce

@@ -1,11 +1,14 @@
 from django.contrib import admin
 from simple_history.admin import SimpleHistoryAdmin
 
+from events.forms.event import EventAdminForm
 from events.models.event import Event
 
 
 @admin.register(Event)
 class EventAdmin(SimpleHistoryAdmin):
+    form = EventAdminForm
+
     list_display = [
         'id',
         'category',

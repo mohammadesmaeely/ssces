@@ -49,6 +49,7 @@ INSTALLED_APPS = [
     'admin_auto_filters',
     'drf_yasg',
     'import_export',
+    'tinymce',
 
     # project app
     'users',
